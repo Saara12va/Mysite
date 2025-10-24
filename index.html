@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walco Partners Oy</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #e6f2ff;
+            color: #003366;
+            line-height: 1.6;
+        }
+        section {
+            padding: 80px 10%;
+        }
+        h1, h2, h3 {
+            color: #00264d;
+            text-transform: uppercase;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #cce6ff;
+            padding: 100px 10%;
+        }
+        .hero-text {
+            max-width: 50%;
+        }
+        .hero img {
+            width: 45%;
+            border-radius: 10px;
+        }
+        .services {
+            background: url('https://plus.unsplash.com/premium_photo-1677529497024-00d7310248bc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+            color: white;
+            position: relative;
+        }
+        .services::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 50, 0.6);
+        }
+        .services-content {
+            position: relative;
+            z-index: 2;
+        }
+        /* Заголовки и подзаголовки блока Сервисы — белые */
+        .services-content h2, 
+        .services-content h3 {
+            color: #ffffff;
+        }
+
+        .advantages, .process, .contact-form, .contact {
+            background-color: #b3daff;
+        }
+        .advantage-item, .process-step {
+            margin-bottom: 20px;
+        }
+        .contact {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #80c1ff;
+            color: #001a33;
+            height: 100vh;
+        }
+        .contact-text {
+            max-width: 50%;
+            font-size: 1.3em;
+        }
+        .contact-right {
+            width: 40%;
+        }
+        .big-text {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Pääruutu -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Walco Partners Oy</h1>
+            <p class="big-text">Autamme yrityksiä saavuttamaan tavoitteensa tehokkaamman hallinnon, projektijohtamisen ja liiketoiminnan kehityksen kautta. 
+            Walco Partners Oy yhdistää strategisen ajattelun ja käytännön toteutuksen, jotta asiakkaamme voivat keskittyä siihen, mitä he tekevät parhaiten – liiketoimintaan.</p>
+        </div>
+        <img src="https://plus.unsplash.com/premium_photo-1682088396002-3b835b3fb106?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fEJ1c2luZXNzJTIwYW5kJTIwYWRtaW5pc3RyYXRpdmUlMjBtYW5hZ2VtZW50JTJDJTIwcHJvamVjdCUyMG1hbmFnZW1lbnQlMkMlMjBidXNpbmVzcyUyMGNvbnN1bHRhbmN5JTIwYWN0aXZpdGllc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Business management">
+    </section>
+
+    <!-- 2. Meistä -->
+    <section class="about">
+        <h2>Kuka olemme</h2>
+        <p class="big-text">Walco Partners Oy on suomalainen yritys, joka tarjoaa hallinnon ja liiketoiminnan kehittämisen ratkaisuja eri toimialojen yrityksille. 
+        Yhdistämme monipuolisen kokemuksemme projektien johtamisesta ja strategisesta suunnittelusta, jotta asiakkaamme voivat kasvaa hallitusti ja kestävästi. 
+        Palvelumme perustuvat luottamukseen, tehokkuuteen ja jatkuvaan parantamiseen. 
+        Meidän tehtävämme on auttaa asiakkaitamme tekemään parempia päätöksiä, rakentamaan vahvempia tiimejä ja saavuttamaan pysyvää tulosta. 
+        Työskentelemme tiiviissä yhteistyössä asiakkaidemme kanssa varmistaaksemme, että jokainen ratkaisu on räätälöity juuri heidän tarpeisiinsa.</p>
+    </section>
+
+    <!-- 3. Palvelut -->
+    <section class="services">
+        <div class="services-content">
+            <h2>Ratkaisumme yrityksellesi</h2>
+            <h3>1. Liiketoiminnan ja hallinnon kehitys</h3>
+            <p class="big-text">Tarjoamme kokonaisvaltaista tukea organisaatiorakenteen ja hallintoprosessien parantamiseen. 
+            Autamme luomaan tehokkaat käytännöt ja selkeät roolit, jotka tukevat yrityksen strategisia tavoitteita.</p>
+
+            <h3>2. Projektinhallinta ja toteutus</h3>
+            <p class="big-text">Johdamme projekteja suunnittelusta toteutukseen asti, varmistaen, että ne pysyvät aikataulussa, budjetissa ja laadullisissa tavoitteissaan. 
+            Asiakkaamme voivat luottaa läpinäkyvään viestintään ja riskienhallintaan jokaisessa vaiheessa.</p>
+
+            <h3>3. Liiketoimintakonsultointi</h3>
+            <p class="big-text">Analysoimme yrityksen toimintaa ja tarjoamme konkreettisia ratkaisuja kasvun ja kannattavuuden parantamiseen. 
+            Tuomme uusia näkökulmia ja autamme löytämään mahdollisuuksia, joita sisäisesti voi olla vaikea tunnistaa.</p>
+        </div>
+    </section>
+
+    <!-- 4. Edut -->
+    <section class="advantages">
+        <h2>Miksi valita Walco Partners Oy</h2>
+        <div class="advantage-item">
+            <h3>Syvällinen asiantuntemus</h3>
+            <p class="big-text">Tiimillämme on laaja kokemus kansainvälisistä ja kotimaisista projekteista, mikä takaa korkeatasoisen osaamisen.</p>
+        </div>
+        <div class="advantage-item">
+            <h3>Asiakaslähtöinen lähestymistapa</h3>
+            <p class="big-text">Rakennamme jokaisen ratkaisun asiakkaan tarpeiden pohjalta, ei valmiiden mallien mukaisesti.</p>
+        </div>
+        <div class="advantage-item">
+            <h3>Tuloksiin keskittyvä toiminta</h3>
+            <p class="big-text">Mittamme menestystä asiakkaidemme saavutusten kautta – tavoitteemme on todelliset, mitattavat tulokset.</p>
+        </div>
+    </section>
+
+    <!-- 5. Prosessi -->
+    <section class="process">
+        <h2>Kuinka työskentelemme</h2>
+        <div class="process-step">
+            <h3>Vaihe 1: Tarpeiden analyysi</h3>
+            <p class="big-text">Aloitamme kartoittamalla yrityksesi nykytilan ja tavoitteet, jotta ymmärrämme tarkasti kehitystarpeet.</p>
+        </div>
+        <div class="process-step">
+            <h3>Vaihe 2: Strateginen suunnittelu</h3>
+            <p class="big-text">Laadimme räätälöidyn suunnitelman, joka yhdistää tavoitteet, resurssit ja aikataulun hallituksi kokonaisuudeksi.</p>
+        </div>
+        <div class="process-step">
+            <h3>Vaihe 3: Toteutus ja seuranta</h3>
+            <p class="big-text">Viemme suunnitelmat käytäntöön ja seuraamme edistymistä yhdessä asiakkaan kanssa varmistaen jatkuvan parantamisen.</p>
+        </div>
+    </section>
+
+    <!-- 6. Lomake -->
+    <section class="contact-form">
+        <h2>Ota yhteyttä meihin</h2>
+        <p class="big-text">Haluaisitko kuulla lisää palveluistamme? Lähetä meille viesti ja kerro, miten voimme auttaa yritystäsi. 
+        Täytä alla oleva lomake, niin palaamme sinulle mahdollisimman pian.</p>
+    </section>
+
+    <!-- 7. Yhteystiedot -->
+    <section class="contact">
+        <div class="contact-text">
+            <h2>Yhteystiedot</h2>
+            <p class="big-text">Jos haluat keskustella tarkemmin yhteistyömahdollisuuksista tai saada lisätietoja palveluistamme, 
+            ota yhteyttä sähköpostitse – vastaamme mielellämme kaikkiin kysymyksiin.</p>
+            <p class="big-text"><strong>Sähköposti:</strong> postia@walcopartners.org</p>
+            <p class="small-text"><strong>Osoite:</strong> Aapramintie 14A 23, 01610 Vantaa</p>
+        </div>
+        <div class="contact-right"></div>
+    </section>
+
+</body>
+</html>
